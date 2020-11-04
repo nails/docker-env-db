@@ -1,4 +1,4 @@
-FROM mysql:8.0
+FROM mysql:8.0.22
 
 # Set default database
 ENV MYSQL_USER docker

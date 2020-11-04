@@ -12,6 +12,6 @@ These Dockerfiles build a MySQL database container. By default a databases `dev`
 To compile and publish changes to these containers use the following commands:
 
 ```
-docker build -t nails/docker-env-db:<tag> ./mysql<version>
+docker build -t nails/docker-env-db:mysql-<version> ./mysql<version>
 docker push nails/docker-env-db
 ```
